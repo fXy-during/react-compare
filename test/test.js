@@ -11,7 +11,6 @@ describe('单元测试', function () {
             //     age: 12,
             //     weight: 68
             // };
-
             // compare(nextProps, thisProps, {})
             const add = (a, b) => a + b;
             expect(add(1, 2)).toBe(3);
