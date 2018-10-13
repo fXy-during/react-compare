@@ -1,7 +1,7 @@
 {
-  "name": "jslib-base",
+  "name": "compare",
   "version": "0.2.0",
-  "description": "最好用的js第三方库脚手架",
+  "description": "react生命周期辅助库",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
@@ -17,14 +17,14 @@
     "test": "npm run lint && npm run build && mocha",
     "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags"
   },
-  "author": "yanhaijing",
+  "author": "bethon",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yanhaijing/jslib-base.git"
+    "url": "git@github.com:fXy-during/react-compare.git"
   },
   "bugs": {
-    "url": "https://github.com/yanhaijing/jslib-base/issues"
+    "url": "https://github.com/fXy-during/react-compare/issues"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
