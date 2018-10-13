@@ -1,19 +1,22 @@
-var expect = require('expect.js');
+var compare = require('../src');
 
-var base = require('../dist/index.js');
+describe('单元测试', function () {
+    // this.timeout(1000);
 
-describe('单元测试', function() {
-    this.timeout(1000);
+    describe('功能1', function () {
+        test('相等', function () {
+            // const nextProps = {name: "bethon", age: 12};
+            // const thisProps = {
+            //     name: "bethon",
+            //     age: 12,
+            //     weight: 68
+            // };
 
-    describe('功能1', function() {
-        it('相等', function() {
-            expect(base.name).to.equal('base');
+            // compare(nextProps, thisProps, {})
+            const add = (a, b) => a + b;
+            expect(add(1, 2)).toBe(3);
         });
     });
+    expect(true).toBe(true);
 
-    describe('功能2', function() {
-        it('不相等', function() {
-            expect(base.name).not.to.equal(1);
-        });
-    });
 });
